@@ -13,7 +13,6 @@ if (process.env.NOD_ENV !== 'test') {
   mongoose.connect(keys.mongoURI)
 }
 
-
 app.use(morgan('combined'))
 app.use(cors())
 app.use(bodyParser.json({ type: '*/*' }))
