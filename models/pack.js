@@ -5,7 +5,7 @@ const PackSchema = new Schema({
   kind: {type: String, default: 'Pack'},
   self: String,
   id: String,
-  title: {type: String, default: 'Pack name'},
+  title: {type: String, default: 'new list'},
   description: {type: String, default: ''},
   categories: [{
     type: Schema.Types.ObjectId,
