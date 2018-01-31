@@ -1,4 +1,4 @@
-SPA for managing backpacking lists.
-Made with core technologies React/Redux/MongoDB.
+REST API for managing backpacking lists.
+Implemented with Node.js, Express, MongoDB, and Passport.
 
-https://immense-woodland-40111.herokuapp.com/
+Client is using API is here: https://immense-woodland-40111.herokuapp.com/
